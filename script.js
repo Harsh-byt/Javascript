@@ -81,5 +81,7 @@ month.innerHTML= `${monthsOld} year old`;}
 
 detail.append(month);
 }
+let btn=document.getElementById("btn");
+btn.addEventListener("click",()=>{
   createCard("Introduction to Backend | Sigma Web Dev video #1", "CodeWithHarry", 560, 7, "31:22", "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw")
-  
+  })
